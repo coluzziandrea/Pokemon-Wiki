@@ -45,15 +45,22 @@
 
 .search-box {
   display: flex;
-}
+  align-items: center;
+  gap: 10px;
 
-.search-input {
+  color: var(--gray-color);
+
   border-radius: 9999px;
   height: 3rem;
   width: 250px;
   background-color: rgb(243, 244, 246);
   padding-left: 1.25rem;
-  padding-right: 1.25rem;
+}
+
+.search-input {
+  background-color: rgb(243, 244, 246);
+  border: none;
+  outline: none;
 }
 
 .search-input:focus {
