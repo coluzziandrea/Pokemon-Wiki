@@ -1,2 +1,3 @@
-# Blog-Angular-TDD
-Source Code for Blog Post on Angular TDD
+# Pokémon Wiki
+
+Source Code for Pokémon Wiki
