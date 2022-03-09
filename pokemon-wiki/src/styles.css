@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+
+:root {
+  --primary-color: #f2c304;
+  --secondary-color: #2b62aa;
+  --primary-shadow-color: #c8a102;
+  --secondary-shadow-color: #152a5e;
+  --gray-color: #302701;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pokemon Solid", sans-serif;
+}
+
+h1 {
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 48px;
+}
