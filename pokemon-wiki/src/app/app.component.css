@@ -1,6 +1,7 @@
-.welcome-box {
-  margin-top: 50px;
+.container {
+  display: flex;
+}
 
-  margin-left: 50px;
-  margin-right: 50px;
+.welcome-box {
+  width: 550px;
 }

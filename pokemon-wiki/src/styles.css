@@ -6,7 +6,7 @@
   --secondary-color: #2b62aa;
   --primary-shadow-color: #c8a102;
   --secondary-shadow-color: #152a5e;
-  --gray-color: #302701;
+  --gray-color: #495057;
 
   --secondary-light-color: #6b91c4;
 }
@@ -48,7 +48,8 @@ h2 {
   font-size: 39px;
   font-family: "Pokemon Solid", sans-serif;
   user-select: none; /* make user not able to select text */
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  line-height: 1.9;
 }
 
 p {

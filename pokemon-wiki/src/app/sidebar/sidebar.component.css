@@ -1,0 +1,31 @@
+.sidebar {
+  padding: 50px 10px;
+  max-width: 600px;
+  min-width: 250px;
+
+  background-color: var(--primary-color);
+}
+
+.sidebar-row {
+  display: flex;
+
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  padding: 1rem;
+
+  cursor: pointer;
+
+  border-radius: 0.75rem;
+}
+
+.sidebar-row:hover {
+  background-color: var(--primary-shadow-color);
+}
+
+.sidebar-icon {
+  color: var(--secondary-color);
+  height: 32px;
+  width: 32px;
+  display: block;
+}

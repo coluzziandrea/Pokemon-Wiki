@@ -26,19 +26,6 @@
   margin-top: -20px;
 }
 
-.header-links {
-  display: flex;
-  gap: 20px;
-}
-
-.header-link {
-  font-family: "Pokemon Solid", sans-serif;
-
-  letter-spacing: 1.1px;
-  font-weight: 500;
-  font-size: 20px;
-}
-
 .search-box {
   display: flex;
   align-items: center;
@@ -53,8 +40,16 @@
   padding-left: 1.25rem;
 }
 
+.search-input::placeholder {
+  color: var(--secondary-light-color);
+}
+
 .search-input {
   background-color: rgb(243, 244, 246);
   border: none;
   outline: none;
+}
+
+.search-icon {
+  color: var(--secondary-color);
 }
