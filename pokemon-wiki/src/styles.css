@@ -1,0 +1,68 @@
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+:root {
+  --primary-color: #f2c304;
+  --secondary-color: #2b62aa;
+  --primary-shadow-color: #c8a102;
+  --secondary-shadow-color: #152a5e;
+  --gray-color: #495057;
+
+  --secondary-light-color: #6b91c4;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ecef;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 48px;
+  font-family: "Pokemon Solid", sans-serif;
+  user-select: none; /* make user not able to select text */
+}
+
+a:link,
+a:visited {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--secondary-light-color);
+}
+
+h2 {
+  letter-spacing: 3.5px;
+  font-weight: 100;
+  font-size: 39px;
+  font-family: "Pokemon Solid", sans-serif;
+  user-select: none; /* make user not able to select text */
+  margin-bottom: 25px;
+  line-height: 1.9;
+}
+
+p {
+  color: var(--gray-color);
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.primary-header {
+  text-align: center;
+  color: var(--primary-color);
+  text-shadow: -2px 0 var(--secondary-color), 0 -2px var(--secondary-color),
+    2px 0 var(--secondary-color), 0 2px var(--secondary-color),
+    -2px -2px var(--secondary-color), 2px 2px var(--secondary-color);
+}
